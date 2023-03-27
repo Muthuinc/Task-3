@@ -1,0 +1,28 @@
+incubus@incubus-ThinkCentre-M93p:/home$ nslookup guvi.in
+Server:		127.0.0.53
+Address:	127.0.0.53#53
+
+Non-authoritative answer:
+Name:	guvi.in
+Address: 172.67.144.22
+Name:	guvi.in
+Address: 104.21.95.95
+Name:	guvi.in
+Address: 2606:4700:976f:101b:b83b:4b1:7e7b:e151
+
+incubus@incubus-ThinkCentre-M93p:/home$ ping guvi.in
+PING guvi.in (104.21.95.95) 56(84) bytes of data.
+64 bytes from 104.21.95.95 (104.21.95.95): icmp_seq=1 ttl=54 time=347 ms
+64 bytes from 104.21.95.95 (104.21.95.95): icmp_seq=2 ttl=54 time=576 ms
+64 bytes from 104.21.95.95 (104.21.95.95): icmp_seq=3 ttl=54 time=396 ms
+64 bytes from 104.21.95.95 (104.21.95.95): icmp_seq=4 ttl=54 time=418 ms
+^C
+--- guvi.in ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3001ms
+rtt min/avg/max/mdev = 347.298/434.399/576.364/85.843 ms
+incubus@incubus-ThinkCentre-M93p:/home$ telnet google.com 443
+Trying 142.251.42.46...
+Connected to google.com.
+Escape character is '^]'.
+^CConnection closed by foreign host.
+incubus@incubus-ThinkCentre-M93p:/home$ 
